@@ -1,0 +1,138 @@
+2019-11-28 15:58:30,463 515  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.an.eureka.EurekaApplicationTests], using SpringBootContextLoader
+2019-11-28 15:58:30,467 519  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.an.eureka.EurekaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-11-28 15:58:30,468 520  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.an.eureka.EurekaApplicationTests]: EurekaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-11-28 15:58:30,569 621  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.an.eureka.EurekaApplication for test class com.an.eureka.EurekaApplicationTests
+2019-11-28 15:58:30,664 716  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-11-28 15:58:30,674 726  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@291f18, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17d88132, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ddcc487, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16eccb2e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5ef5c734, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@d771cc9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36b4091c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4671115f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@36cda2c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3697186]
+2019-11-28 15:58:31,253 1305 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e8ab10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 15:58:31,418 1470 [main] INFO  c.an.eureka.EurekaApplicationTests - The following profiles are active: dev
+2019-11-28 15:58:32,111 2163 [main] WARN  o.s.b.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 15:58:32,408 2460 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=e89d4487-10a7-39b5-afe9-91cb63446f10
+2019-11-28 15:58:32,524 2576 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e8ab10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 15:58:32,868 2920 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-28 15:58:32,868 2920 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 15:58:32,874 2926 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-28 15:58:32,874 2926 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 15:58:33,465 3517 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 15:58:34,695 4747 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-28 15:58:34,741 4793 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-28 15:58:34,743 4795 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-11-28 15:58:34,759 4811 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574931514758 with initial instances count: 0
+2019-11-28 15:58:34,824 4876 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-11-28 15:58:34,826 4878 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:-1/eureka/]
+2019-11-28 15:58:35,034 5086 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-28 15:58:35,034 5086 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-28 15:58:35,035 5087 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-28 15:58:35,035 5087 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-28 15:58:35,225 5277 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:-1/eureka/
+2019-11-28 15:58:35,234 5286 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-11-28 15:58:35,235 5287 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-11-28 15:58:35,368 5420 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 15:58:35,426 5478 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-11-28 15:58:35,427 5479 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 15:58:35,427 5479 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 15:58:35,444 5496 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-11-28 15:58:35,445 5497 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-11-28 15:58:35,445 5497 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-11-28 15:58:35,445 5497 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-11-28 15:58:35,446 5498 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-11-28 15:58:35,449 5501 [main] INFO  c.an.eureka.EurekaApplicationTests - Started EurekaApplicationTests in 4.743 seconds (JVM running for 5.771)
+2019-11-28 15:58:35,459 5511 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-11-28 15:58:35,633 5685 [Thread-16] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA with eureka with status DOWN
+2019-11-28 15:58:35,636 5688 [Thread-16] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-11-28 15:58:35,641 5693 [Thread-16] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2019-11-28 15:58:35,645 5697 [Thread-16] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 15:58:35,648 5700 [Thread-16] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-28 15:58:35,649 5701 [Thread-16] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-28 15:59:11,703 553  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.an.eureka.EurekaApplicationTests], using SpringBootContextLoader
+2019-11-28 15:59:11,708 558  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.an.eureka.EurekaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-11-28 15:59:11,709 559  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.an.eureka.EurekaApplicationTests]: EurekaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-11-28 15:59:11,817 667  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.an.eureka.EurekaApplication for test class com.an.eureka.EurekaApplicationTests
+2019-11-28 15:59:11,923 773  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-11-28 15:59:11,936 786  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@291f18, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17d88132, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ddcc487, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16eccb2e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5ef5c734, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@d771cc9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36b4091c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4671115f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@36cda2c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3697186]
+2019-11-28 15:59:12,522 1372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a117aa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 15:59:12,652 1502 [main] INFO  c.an.eureka.EurekaApplicationTests - The following profiles are active: dev
+2019-11-28 15:59:13,330 2180 [main] WARN  o.s.b.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 15:59:13,646 2496 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=e89d4487-10a7-39b5-afe9-91cb63446f10
+2019-11-28 15:59:13,777 2627 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a117aa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 15:59:14,158 3008 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-28 15:59:14,158 3008 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 15:59:14,164 3014 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-28 15:59:14,165 3015 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 15:59:14,719 3569 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 15:59:16,052 4902 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-28 15:59:16,084 4934 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-28 15:59:16,086 4936 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-11-28 15:59:16,095 4945 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574931556094 with initial instances count: 0
+2019-11-28 15:59:16,152 5002 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-11-28 15:59:16,154 5004 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:-1/eureka/]
+2019-11-28 15:59:16,346 5196 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-28 15:59:16,346 5196 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-28 15:59:16,346 5196 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-28 15:59:16,346 5196 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-28 15:59:16,523 5373 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:-1/eureka/
+2019-11-28 15:59:16,532 5382 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-11-28 15:59:16,533 5383 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-11-28 15:59:16,669 5519 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 15:59:16,731 5581 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-11-28 15:59:16,731 5581 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 15:59:16,732 5582 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 15:59:16,749 5599 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-11-28 15:59:16,750 5600 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-11-28 15:59:16,750 5600 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-11-28 15:59:16,750 5600 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-11-28 15:59:16,750 5600 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-11-28 15:59:16,753 5603 [main] INFO  c.an.eureka.EurekaApplicationTests - Started EurekaApplicationTests in 4.783 seconds (JVM running for 5.919)
+2019-11-28 15:59:16,764 5614 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-11-28 15:59:16,946 5796 [Thread-16] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA with eureka with status DOWN
+2019-11-28 15:59:16,949 5799 [Thread-16] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-11-28 15:59:16,973 5823 [Thread-16] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2019-11-28 15:59:16,984 5834 [Thread-16] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 15:59:16,987 5837 [Thread-16] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-28 15:59:16,987 5837 [Thread-16] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-28 15:59:35,946 484  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.an.eureka.EurekaApplicationTests], using SpringBootContextLoader
+2019-11-28 15:59:35,952 490  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.an.eureka.EurekaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-11-28 15:59:35,953 491  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.an.eureka.EurekaApplicationTests]: EurekaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-11-28 15:59:36,064 602  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.an.eureka.EurekaApplication for test class com.an.eureka.EurekaApplicationTests
+2019-11-28 15:59:36,190 728  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-11-28 15:59:36,201 739  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@291f18, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17d88132, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ddcc487, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16eccb2e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5ef5c734, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@d771cc9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36b4091c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4671115f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@36cda2c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3697186]
+2019-11-28 15:59:36,795 1333 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a117aa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 15:59:36,945 1483 [main] INFO  c.an.eureka.EurekaApplicationTests - The following profiles are active: dev
+2019-11-28 15:59:37,649 2187 [main] WARN  o.s.b.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 15:59:37,940 2478 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=e89d4487-10a7-39b5-afe9-91cb63446f10
+2019-11-28 15:59:38,055 2593 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a117aa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 15:59:38,405 2943 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-28 15:59:38,406 2944 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 15:59:38,411 2949 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-28 15:59:38,412 2950 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 15:59:38,961 3499 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 15:59:40,199 4737 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-28 15:59:40,234 4772 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-28 15:59:40,235 4773 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-11-28 15:59:40,246 4784 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574931580245 with initial instances count: 0
+2019-11-28 15:59:40,299 4837 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-11-28 15:59:40,302 4840 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:-1/eureka/]
+2019-11-28 15:59:40,501 5039 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-28 15:59:40,501 5039 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-28 15:59:40,501 5039 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-28 15:59:40,501 5039 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-28 15:59:40,680 5218 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:-1/eureka/
+2019-11-28 15:59:40,689 5227 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-11-28 15:59:40,690 5228 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-11-28 15:59:40,822 5360 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 15:59:40,875 5413 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-11-28 15:59:40,876 5414 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 15:59:40,877 5415 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 15:59:40,893 5431 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-11-28 15:59:40,894 5432 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-11-28 15:59:40,894 5432 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-11-28 15:59:40,894 5432 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-11-28 15:59:40,894 5432 [Thread-15] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-11-28 15:59:40,896 5434 [main] INFO  c.an.eureka.EurekaApplicationTests - Started EurekaApplicationTests in 4.662 seconds (JVM running for 5.731)
+2019-11-28 15:59:40,908 5446 [Thread-15] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-11-28 15:59:41,083 5621 [Thread-16] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA with eureka with status DOWN
+2019-11-28 15:59:41,086 5624 [Thread-16] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-11-28 15:59:41,091 5629 [Thread-16] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2019-11-28 15:59:41,094 5632 [Thread-16] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 15:59:41,098 5636 [Thread-16] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-28 15:59:41,098 5636 [Thread-16] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
